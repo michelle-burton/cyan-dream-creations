@@ -242,6 +242,54 @@
         font-size: 0.92rem;
       }
 
+      @font-face {
+        font-family: 'Great Vibes';
+        src: url('assets/fonts/GreatVibes-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: 'Cinzel';
+        src: url('assets/fonts/Cinzel-VariableFont_wght.ttf') format('truetype');
+        font-weight: 100 900;
+        font-style: normal;
+      }
+
+      .logo {
+        margin-bottom: 28px;
+        line-height: 1;
+      }
+
+      .logo-main {
+        display: block;
+        font-family: 'Great Vibes', cursive;
+        font-size: clamp(3rem, 8vw, 6rem);
+        color: #87CEEB;
+        text-shadow:
+          0 0 10px #87CEEB,
+          0 0 25px #2FE6FF,
+          0 0 50px #1FBAD6,
+          0 0 80px rgba(47, 230, 255, 0.4);
+        line-height: 1.15;
+      }
+
+      .logo-sub {
+        display: block;
+        font-family: 'Cinzel', serif;
+        font-size: clamp(0.85rem, 2.2vw, 1.4rem);
+        font-weight: 400;
+        letter-spacing: 0.3em;
+        text-transform: uppercase;
+        color: #F2C94C;
+        text-shadow:
+          0 0 8px #F2C94C,
+          0 0 20px #D4A373,
+          0 0 40px #B8892D,
+          0 0 70px rgba(242, 201, 76, 0.35);
+        margin-top: 4px;
+      }
+
       @media (max-width: 720px) {
         .wrap {
           padding: 32px 16px 60px;
@@ -262,7 +310,10 @@
   <body>
     <main class="wrap">
       <section class="hero">
-        <div class="eyebrow">Cyan Dream Creations</div>
+        <div class="logo">
+          <span class="logo-main">Cyan Dream</span>
+          <span class="logo-sub">Creations</span>
+        </div>
         <h1>Color Palette</h1>
         <p>
           A dark celestial palette built around glowing cyan, dreamy purples, and warm gold accents.
