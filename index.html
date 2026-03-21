@@ -1,301 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cyan Dream Creations — Color Palette</title>
-    <link rel="stylesheet" href="styles/style.css">
-  </head>
-  <body>
-    <main class="wrap">
-      <section class="hero">
-        <div class="logo">
-          <span class="logo-main">Cyan Dream</span>
-          <span class="logo-sub">Creations</span>
-        </div>
-        <h1>Color Palette</h1>
-        <p>
-          A dark celestial palette built around glowing cyan, dreamy purples, and warm gold accents.
-          The system is designed to feel mystical, premium, and artistic while still staying readable
-          for Etsy banners, product mockups, brand graphics, and future web design.
-        </p>
-      </section>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cyan Dream Creations</title>
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
 
-      <section class="section">
-        <h2>Core Brand Colors</h2>
-        <p class="section-note">
-          These are the signature tones that define Cyan Dream Creations. Use the dark night shades for structure,
-          the cyan family for recognition, the purples for magical atmosphere, and the gold sparingly for luxury and sparkle.
-        </p>
+    html, body {
+      width: 100%;
+      height: 100%;
+      background-color: #05080f;
+    }
 
-        <div class="grid cards">
-          <article class="card color-card">
-            <div class="swatch" style="background:#2FE6FF"></div>
-            <div>
-              <h3 class="label">Cyan Glow</h3>
-              <span class="hex">#2FE6FF</span>
-              <div class="meta">
-                <span class="chip">Primary logo glow</span>
-                <span class="chip">Hero accent</span>
-              </div>
-              <p class="desc">Your signature electric cyan. This is the most recognizable brand color and should lead the visual identity.</p>
-            </div>
-          </article>
+    .splash {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 1rem;
+    }
 
-          <article class="card color-card">
-            <div class="swatch" style="background:#1FBAD6"></div>
-            <div>
-              <h3 class="label">Cyan Tide</h3>
-              <span class="hex">#1FBAD6</span>
-              <div class="meta">
-                <span class="chip">Primary brand color</span>
-                <span class="chip">Buttons</span>
-              </div>
-              <p class="desc">A balanced cyan-blue for main UI accents, supporting text highlights, product frames, and category labels.</p>
-            </div>
-          </article>
-
-          <article class="card color-card">
-            <div class="swatch" style="background:#0A7C94"></div>
-            <div>
-              <h3 class="label">Deep Teal</h3>
-              <span class="hex">#0A7C94</span>
-              <div class="meta">
-                <span class="chip">Depth</span>
-                <span class="chip">Shadows</span>
-              </div>
-              <p class="desc">Use this darker cyan for gradients, lower-contrast accents, panel depth, and richer transitions beneath the brighter glow.</p>
-            </div>
-          </article>
-
-          <article class="card color-card">
-            <div class="swatch" style="background:#8A6EFF"></div>
-            <div>
-              <h3 class="label">Lavender Glow</h3>
-              <span class="hex">#8A6EFF</span>
-              <div class="meta">
-                <span class="chip">Magical accent</span>
-                <span class="chip">Crystal tones</span>
-              </div>
-              <p class="desc">A bright mystical purple that adds feminine dream energy without pulling the brand away from its dark celestial base.</p>
-            </div>
-          </article>
-
-          <article class="card color-card">
-            <div class="swatch" style="background:#6A5ACD"></div>
-            <div>
-              <h3 class="label">Dream Indigo</h3>
-              <span class="hex">#6A5ACD</span>
-              <div class="meta">
-                <span class="chip">Secondary accent</span>
-                <span class="chip">Background detail</span>
-              </div>
-              <p class="desc">A grounded purple for nebula washes, notebook art, sticker details, and layered celestial effects.</p>
-            </div>
-          </article>
-
-          <article class="card color-card">
-            <div class="swatch" style="background:#4B3FA3"></div>
-            <div>
-              <h3 class="label">Cosmic Violet</h3>
-              <span class="hex">#4B3FA3</span>
-              <div class="meta">
-                <span class="chip">Low-light purple</span>
-                <span class="chip">Contrast support</span>
-              </div>
-              <p class="desc">Best for shadowed purple accents, celestial borders, and adding weight beneath brighter purples.</p>
-            </div>
-          </article>
-
-          <article class="card color-card">
-            <div class="swatch" style="background:#F2C94C"></div>
-            <div>
-              <h3 class="label">Stardust Gold</h3>
-              <span class="hex">#F2C94C</span>
-              <div class="meta">
-                <span class="chip">Luxury accent</span>
-                <span class="chip">Stars + linework</span>
-              </div>
-              <p class="desc">The brightest gold in the system. Use for celestial sparkle, logo trim, and premium highlights.</p>
-            </div>
-          </article>
-
-          <article class="card color-card">
-            <div class="swatch" style="background:#D4A373"></div>
-            <div>
-              <h3 class="label">Antique Gold</h3>
-              <span class="hex">#D4A373</span>
-              <div class="meta">
-                <span class="chip">Warm metallic</span>
-                <span class="chip">Illustration details</span>
-              </div>
-              <p class="desc">A softer gold for botanical details, type accents, ornamental borders, and warmer product styling.</p>
-            </div>
-          </article>
-
-          <article class="card color-card">
-            <div class="swatch" style="background:#B8892D"></div>
-            <div>
-              <h3 class="label">Burnished Gold</h3>
-              <span class="hex">#B8892D</span>
-              <div class="meta">
-                <span class="chip">Depth accent</span>
-                <span class="chip">Lower contrast metallic</span>
-              </div>
-              <p class="desc">Use beneath brighter gold for gradient depth, old-world charm, and richer celestial framing.</p>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section class="section">
-        <h2>Night Neutrals & Supporting Lights</h2>
-        <p class="section-note">
-          These colors support the main palette. They help with readability, spacing, backgrounds, and product presentation without stealing attention from the hero tones.
-        </p>
-
-        <div class="grid cards">
-          <article class="card color-card">
-            <div class="swatch" style="background:#0B0F1A"></div>
-            <div>
-              <h3 class="label">Midnight Base</h3>
-              <span class="hex">#0B0F1A</span>
-              <div class="meta">
-                <span class="chip">Main background</span>
-                <span class="chip">Banner base</span>
-              </div>
-              <p class="desc">The core near-black navy. This is the anchor that makes your cyan and gold glow feel dramatic.</p>
-            </div>
-          </article>
-
-          <article class="card color-card">
-            <div class="swatch" style="background:#121C2B"></div>
-            <div>
-              <h3 class="label">Moonlit Navy</h3>
-              <span class="hex">#121C2B</span>
-              <div class="meta">
-                <span class="chip">Panels</span>
-                <span class="chip">Cards</span>
-              </div>
-              <p class="desc">A softer dark panel tone for cards, sections, product detail areas, and subtle layering.</p>
-            </div>
-          </article>
-
-          <article class="card color-card">
-            <div class="swatch" style="background:#1C2F3A"></div>
-            <div>
-              <h3 class="label">Night Teal</h3>
-              <span class="hex">#1C2F3A</span>
-              <div class="meta">
-                <span class="chip">Atmosphere</span>
-                <span class="chip">Gradient support</span>
-              </div>
-              <p class="desc">Useful for subtle horizon gradients, lower sections, shadow overlays, and atmospheric transitions.</p>
-            </div>
-          </article>
-
-          <article class="card color-card">
-            <div class="swatch" style="background:#EAFBFF"></div>
-            <div>
-              <h3 class="label">Icy Mist</h3>
-              <span class="hex">#EAFBFF</span>
-              <div class="meta">
-                <span class="chip">High contrast text</span>
-                <span class="chip">Glow edge</span>
-              </div>
-              <p class="desc">An airy, almost-white cyan for top contrast text, glow centers, and polished highlight edges.</p>
-            </div>
-          </article>
-
-          <article class="card color-card">
-            <div class="swatch" style="background:#CFE9F5"></div>
-            <div>
-              <h3 class="label">Soft Mist Blue</h3>
-              <span class="hex">#CFE9F5</span>
-              <div class="meta">
-                <span class="chip">Muted text</span>
-                <span class="chip">Secondary icon color</span>
-              </div>
-              <p class="desc">A great soft-light neutral for explanatory copy, labels, UI details, and decorative linework.</p>
-            </div>
-          </article>
-
-          <article class="card color-card">
-            <div class="swatch" style="background:#F5E6C8"></div>
-            <div>
-              <h3 class="label">Warm Moon Cream</h3>
-              <span class="hex">#F5E6C8</span>
-              <div class="meta">
-                <span class="chip">Soft warmth</span>
-                <span class="chip">Paper tones</span>
-              </div>
-              <p class="desc">Adds warmth to paper goods, vintage details, notebook pages, and softer print-based mockups.</p>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section class="section">
-        <h2>Recommended Use Cases</h2>
-        <div class="usage">
-          <article class="card">
-            <h3>Logo System</h3>
-            <p>Use Cyan Glow for the primary script, Stardust Gold for stars and trim, and Midnight Base or Moonlit Navy behind it for contrast.</p>
-          </article>
-          <article class="card">
-            <h3>Etsy Banner</h3>
-            <p>Keep the background predominantly Midnight Base and Night Teal, then layer Cyan Glow and small amounts of gold for celestial focal points.</p>
-          </article>
-          <article class="card">
-            <h3>Product Mockups</h3>
-            <p>Use darker surfaces to let bright cyan art stand out. Bring in Dream Indigo and Lavender Glow for magical accents and gemstone details.</p>
-          </article>
-          <article class="card">
-            <h3>Website or Shop Graphics</h3>
-            <p>Use Moonlit Navy panels, Icy Mist text, Cyan Tide buttons, and soft gold dividers for a polished premium feel.</p>
-          </article>
-        </div>
-
-        <div class="brand-rule">
-          <strong>Suggested brand balance:</strong> 80% dark night tones, 15% cyan family, 5% gold and purple accents. This keeps the brand rich and cohesive instead of busy.
-        </div>
-      </section>
-
-      <section class="section">
-        <h2>Quick Reference</h2>
-        <p class="section-note">
-          A compact view for fast design decisions when you are building banners, stickers, mugs, journals, or Etsy thumbnails.
-        </p>
-        <div class="mini-grid">
-          <div class="mini">
-            <div class="top" style="background:#0B0F1A"></div>
-            <div class="bottom"><h4>Background</h4><p>#0B0F1A — primary dark base</p></div>
-          </div>
-          <div class="mini">
-            <div class="top" style="background:#2FE6FF"></div>
-            <div class="bottom"><h4>Hero Accent</h4><p>#2FE6FF — signature logo glow</p></div>
-          </div>
-          <div class="mini">
-            <div class="top" style="background:#1FBAD6"></div>
-            <div class="bottom"><h4>Primary Accent</h4><p>#1FBAD6 — buttons, labels, outlines</p></div>
-          </div>
-          <div class="mini">
-            <div class="top" style="background:#8A6EFF"></div>
-            <div class="bottom"><h4>Magic Accent</h4><p>#8A6EFF — crystals and dreamy glow</p></div>
-          </div>
-          <div class="mini">
-            <div class="top" style="background:#F2C94C"></div>
-            <div class="bottom"><h4>Luxury Accent</h4><p>#F2C94C — stars, trim, sparkle</p></div>
-          </div>
-          <div class="mini">
-            <div class="top" style="background:#EAFBFF"></div>
-            <div class="bottom"><h4>Text Highlight</h4><p>#EAFBFF — bright readable contrast</p></div>
-          </div>
-        </div>
-      </section>
-
-      <p class="footer-note">Built for Cyan Dream Creations — dreamy goods for cozy rituals and everyday magic.</p>
-    </main>
-     <script src="scripts/script.js"></script>
-  </body>
+    .splash img {
+      width: 100%;
+      max-width: 1200px;
+      height: auto;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="splash">
+    <img
+      src="assets/images/CyanDreamCreations.png"
+      alt="Cyan Dream Creations — Dreamy Goods for Cozy Rituals and Everyday Magic"
+    >
+  </div>
+</body>
 </html>
